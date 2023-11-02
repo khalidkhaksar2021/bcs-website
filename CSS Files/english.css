@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(19, 50, 82);
+}
+.banner{
+    border-bottom: 2px solid white;
+    border-radius: 15px;
+    width: 100%;
+    height: 230px;
+    color: white;
+    padding: 10px;
+    background-image: url(../Images/graduation-cap-throw-1024x458-1.png);
+    background-size: cover;
+}
+.logo{
+    border: 1px solid black;
+    border-radius: 100px;
+    float: left;
+    margin-right: 20px;
+    display: block;
+}
+.banner h1{
+    font-size: 40px;
+    padding: 50px;
+}
+.languages {
+    float: right;
+    border-bottom: 2px solid white;
+    width: 250px;
+    margin-top: 135px;
+    margin-left: 20px;
+    
+}
+.languages:hover{
+    border-radius: 10px;
+    background-color:rgba(122, 133, 183, 0.3);
+}
+.languages ul li{
+    list-style-type: none;
+    display: inline;
+    
+}
+.languages ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    font-size: 25px;
+    font-weight: bold;
+}
+.languages ul li a:hover {
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    
+}
+#english {
+    border-right: 1px solid white;
+    padding: 5px;
+}
+#pashto {
+    padding: 5px;
+    border-left: 1px solid white;
+}
+    /* Animation */
+@keyframes logoRotation{
+    from{transform: rotateZ(10deg)}
+    to{transform: rotateZ(360deg)}
+}
+.gmail-logo{
+    float: left;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top:10px;
+    animation-name: logoRotation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.contact{
+    width: 400px;
+    height: 100px;
+    float: right;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    float: right;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact a:hover{
+    color: lightseagreen;
+}
+.contact a:active{
+    color: yellow;
+}
+#nav{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+#nav ul li{
+    list-style-type: none;
+    display: inline;
+    border-bottom: 1px solid white;
+    float: left;
+    /* margin-left: -30px; */
+    border-radius: 8px;
+}
+#nav ul li a{
+    text-decoration: none;
+    font-size: large;
+    padding: 5px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nav ul li:hover{
+    background-color:black;
+    color: white;
+}
+.teachers{
+    position: relative;
+}
+.teachers-dropdown{
+    display: none;
+    position: absolute;
+    width: 60px;
+    padding: 8px 10px;
+}
+.teachers-dropdown ul li a{
+    padding: 6px;
+}
+.teachers-dropdown ul li{
+    padding: 6px;
+    margin: 3px;
+    margin-left: -50px;
+    width: 220px;
+    background-color: lightslategrey;
+}
+.teachers:hover .teachers-dropdown{
+    display: block;
+}
+.committees{
+    position: relative;
+}
+.committees-dropdown{
+    display: none;
+    position: absolute;
+    width: 60px;
+    padding: 8px 10px;
+}
+.committees-dropdown ul li a{
+    padding: 8px;
+    font-size: 20px;
+}
+.committees-dropdown ul li{
+    padding: 6px;
+    margin: 3px;
+    margin-left: -50px;
+    width: 250px;
+    background-color: lightslategray;
+}
+.committees:hover .committees-dropdown{
+    display: block;
+}
+#contents{
+    width: 100%;
+    height: 880px;
+    padding: 30px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 30px;
+    background-color: rgba(9, 9, 9, 0.3);
+}
+#contents h1{
+    color: white;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+#contents p{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    margin: 0;
+}
+#photo-frame{
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 290px;
+    width: 1298px;
+}
+.hamed_pic{
+    width: 260px;
+    height: 280px;
+    /* float: left; */
+    padding: 5px;
+    border-radius: 20px;
+}
+.mk_pic{
+    width: 260px;
+    height: 280px;
+    /* float: left; */
+    padding: 5px;
+    border-radius: 20px;
+}
+.naqib_pic{
+    width: 260px;
+    height: 280px;
+    /* float: left; */
+    padding: 5px;
+    border-radius: 20px;
+}
+.nazak_pic{
+    width: 260px;
+    height: 280px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.barrer_pic{
+    width: 230px;
+    height: 230;
+    /* float: right; */
+    padding: 5px;
+    border-radius: 20px;
+}
+.footer{
+    border-top: 1px solid white;
+    background-image: url(../Images/graduation-cap-throw-1024x458-1.png);
+    text-align: center;
+    padding: 8px;
+    color: white;   
+    border-radius: 10px;
+}
+.footer h1{
+    font-size: 25px;
+}
